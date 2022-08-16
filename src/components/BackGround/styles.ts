@@ -1,17 +1,6 @@
 import styled from 'styled-components';
 
-export const HomeContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-
-  > main {
-    display: flex;
-    flex-direction: column;
-    gap: 8rem;
-  }
-
+export const Container = styled.div`
   body {
     margin: 0;
     padding: 0;
@@ -22,45 +11,66 @@ export const HomeContainer = styled.div`
 
   /*waves****************************/
 
-  > box {
+  .box {
     position: fixed;
     top: 0;
     transform: rotate(80deg);
     left: 0;
   }
 
-  > wave {
+  .wave {
     position: fixed;
     top: 0;
     left: 0;
-    opacity: 0.4;
+    opacity: 0.2;
     position: absolute;
     top: 3%;
     left: 10%;
     background: #0af;
     width: 1500px;
     height: 1300px;
-    margin-left: -150px;
+    margin-left: -500px;
     margin-top: -250px;
     transform-origin: 50% 48%;
     border-radius: 43%;
     animation: drift 7000ms infinite linear;
   }
 
-  > wave.-three {
+  .wave.-three {
     animation: drift 7500ms infinite linear;
     position: fixed;
     background-color: #77daff;
   }
 
-  > wave.-two {
+  .wave.-two {
     animation: drift 3000ms infinite linear;
     opacity: 0.1;
     background: black;
     position: fixed;
   }
 
-  > box:after {
+  @media (max-width: 1500px) {
+    .wave {
+      width: 1500px;
+      height: 1300px;
+      opacity: 0;
+    }
+    .wave.-two {
+      opacity: 0;
+    }
+    .wave.-three {
+      opacity: 0;
+      background: red;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .wave {
+      opacity: 0;
+    }
+  }
+
+  .box:after {
     content: '';
     display: block;
     left: 0;
@@ -82,7 +92,7 @@ export const HomeContainer = styled.div`
 
   /*LOADING SPACE*/
 
-  > contain {
+  .contain {
     animation-delay: 4s;
     z-index: 1000;
     position: fixed;
@@ -107,7 +117,7 @@ export const HomeContainer = styled.div`
     background: linear-gradient(#25a7d7, #25a7d7);
   }
 
-  > icon {
+  .icon {
     width: 100px;
     height: 100px;
     margin: 0 5px;
