@@ -10,22 +10,22 @@ function Projetos() {
 
       <section>
         <ProjetoItem
-          title="Projeto 01"
+          title="Projeto - BMW"
           type="Website"
           slug="projeto01"
-          img="https://zippypixels.com/wp-content/uploads/2015/09/01-Free-perspective-website-mockup-824x542.jpg"
+          img="https://github.com/felipeholanda2077/Site-BMW/blob/master/BMW-SITE.png?raw=true"
         />
         <ProjetoItem
-          title="Projeto 01"
-          type="Website"
-          slug="projeto01"
-          img="https://zippypixels.com/wp-content/uploads/2015/09/01-Free-perspective-website-mockup-824x542.jpg"
+          title="Projeto - TicketHelp"
+          type="App - Ios/Android"
+          slug="projeto02"
+          img="https://github.com/felipeholanda2077/Ticket_Help/blob/master/src/img/01.PNG?raw=true"
         />
         <ProjetoItem
-          title="Projeto 01"
+          title="Projeto - Plataforma de Cursos"
           type="Website"
-          slug="projeto01"
-          img="https://zippypixels.com/wp-content/uploads/2015/09/01-Free-perspective-website-mockup-824x542.jpg"
+          slug="projeto03"
+          img="https://github.com/felipeholanda2077/Projeto-Ignite-Lab/blob/main/event-platform/src/img/Banner1.png?raw=true"
         />
       </section>
       <button type="button">
