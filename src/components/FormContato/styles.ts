@@ -13,6 +13,7 @@ export const FormContainer = styled.section`
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr;
+    position: relative;
   }
 
   > button {
@@ -25,6 +26,7 @@ export const FormContainer = styled.section`
     border-radius: 0.5rem;
     background: ${({ theme }) => theme.primary};
     transition: 0.5s;
+    position: relative;
 
     &:hover {
       background: ${({ theme }) => darken(0.05, theme.primary)};

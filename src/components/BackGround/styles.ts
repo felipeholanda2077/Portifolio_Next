@@ -29,7 +29,7 @@ export const Container = styled.div`
     background: #0af;
     width: 1500px;
     height: 1300px;
-    margin-left: -500px;
+    margin-left: -250px;
     margin-top: -250px;
     transform-origin: 50% 48%;
     border-radius: 43%;
@@ -49,7 +49,7 @@ export const Container = styled.div`
     position: fixed;
   }
 
-  @media (max-width: 1500px) {
+  @media (max-width: 1200px) {
     .wave {
       width: 1500px;
       height: 1300px;

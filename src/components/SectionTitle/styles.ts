@@ -10,12 +10,14 @@ export const Container = styled.div`
   h1 {
     color: ${({ theme }) => theme.primary};
     font-size: 4.5rem;
+    position: relative;
   }
 
   h2 {
     color: ${({ theme }) => theme.secondary};
     font-weight: 300;
     font-size: 3.5rem;
+    position: relative;
   }
 
   @media (max-width: 1000px) {

@@ -10,6 +10,7 @@ export const Container = styled.section`
     align-items: center;
     justify-content: center;
     gap: 8rem;
+    position: relative;
 
     @media (max-width: 1000px) {
       gap: 5rem;

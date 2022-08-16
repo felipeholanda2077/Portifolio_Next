@@ -14,6 +14,12 @@ export const Container = styled.section`
     background-color: ${({ theme }) => theme.secondary};
     border-radius: 14rem;
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 100);
+    transition: 1.5s;
+    position: relative;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   > div {

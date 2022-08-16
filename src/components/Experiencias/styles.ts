@@ -8,6 +8,7 @@ export const Container = styled.section`
     margin-top: 7rem;
     display: flex;
     gap: 1.5rem;
+    position: relative;
 
     padding-bottom: 8rem;
     border-bottom: 3px solid ${({ theme }) => theme.primary};
