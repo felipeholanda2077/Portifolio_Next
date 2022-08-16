@@ -22,7 +22,7 @@ function Projetos() {
           img="https://github.com/felipeholanda2077/Ticket_Help/blob/master/src/img/01.PNG?raw=true"
         />
         <ProjetoItem
-          title="Projeto - Plataforma de Cursos"
+          title="Plataforma de Cursos"
           type="Website"
           slug="projeto03"
           img="https://github.com/felipeholanda2077/Projeto-Ignite-Lab/blob/main/event-platform/src/img/Banner1.png?raw=true"

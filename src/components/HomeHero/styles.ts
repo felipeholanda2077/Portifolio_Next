@@ -11,6 +11,9 @@ export const Container = styled.section`
   > img {
     width: 40rem;
     flex: 1;
+    background-color: ${({ theme }) => theme.secondary};
+    border-radius: 14rem;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 100);
   }
 
   > div {
@@ -20,6 +23,7 @@ export const Container = styled.section`
   @media (max-width: 1450px) {
     > img {
       width: 30rem;
+      border-radius: 14rem;
     }
 
     > div {
@@ -30,6 +34,7 @@ export const Container = styled.section`
   @media (max-width: 1000px) {
     > img {
       width: 22rem;
+      border-radius: 9rem;
     }
   }
 
