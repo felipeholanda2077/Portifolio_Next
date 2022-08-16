@@ -29,7 +29,7 @@ function Projetos() {
         />
       </section>
       <button type="button">
-        <Link href="/projetos">
+        <Link href="https://github.com/felipeholanda2077?tab=repositories">
           <a>Ver todos os projetos</a>
         </Link>
       </button>
