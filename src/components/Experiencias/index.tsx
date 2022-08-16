@@ -9,24 +9,19 @@ function Experiencias() {
 
       <section>
         <ExeperienciaItem
-          year="2019"
-          title="Dev Front-End"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+          year="2021"
+          title="Freelancer"
+          description="Desenvolvimento de sites e aplicações para desktop e mobile em modelo de e-commerce."
         />
         <ExeperienciaItem
-          year="2019"
-          title="Dev Front-End"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+          year="2022"
+          title="Progamador Shopify"
+          description="Criação de e-commerce de modo freelancer para clientes através da plataforma Shopify."
         />
         <ExeperienciaItem
-          year="2019"
-          title="Dev Front-End"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
-        />
-        <ExeperienciaItem
-          year="2019"
-          title="Dev Front-End"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+          year="2022"
+          title="Freelancer Front-End"
+          description="Criação de Tutoriais para usuarios dentro de uma plataforma de criação de e-commerces avançados."
         />
       </section>
     </Container>
