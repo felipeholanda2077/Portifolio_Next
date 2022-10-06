@@ -14,7 +14,6 @@ function Projetos() {
           type="Website"
           slug="projeto01"
           img="https://github.com/felipeholanda2077/Site-BMW/blob/master/BMW-SITE.png?raw=true"
-          link="https://www.canva.com/"
         />
         <ProjetoItem
           title="Projeto - TicketHelp"
