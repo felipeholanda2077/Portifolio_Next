@@ -13,13 +13,13 @@ function Projetos() {
           title="Projeto - BMW"
           type="Website"
           slug="projeto01"
-          img="https://github.com/felipeholanda2077/Site-BMW"
+          img="https://github.com/felipeholanda2077/Site-BMW/blob/master/BMW-SITE.png?raw=true"
         />
         <ProjetoItem
           title="Projeto - TicketHelp"
           type="App - Ios/Android"
           slug="projeto02"
-          img="https://github.com/felipeholanda2077/Ticket_Help"
+          img="https://github.com/felipeholanda2077/Ticket_Help/blob/master/src/img/01.PNG?raw=true"
         />
         <ProjetoItem
           title="Plataforma de Cursos"
