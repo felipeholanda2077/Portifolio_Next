@@ -24,7 +24,7 @@ function Projetos() {
         <ProjetoItem
           title="Plataforma de Cursos"
           type="Website"
-          slug="projeto03"
+          slug="Projeto_Ignite_Visivel"
           img="https://github.com/felipeholanda2077/Projeto-Ignite-Lab/blob/main/event-platform/src/img/Banner1.png?raw=true"
         />
       </section>
