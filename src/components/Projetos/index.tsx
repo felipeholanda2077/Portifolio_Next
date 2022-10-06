@@ -19,7 +19,7 @@ function Projetos() {
           title="Projeto - TicketHelp"
           type="App - Ios/Android"
           slug="projeto02"
-          img="https://github.com/felipeholanda2077/Ticket_Help/blob/master/src/img/01.PNG?raw=true"
+          img="https://github.com/felipeholanda2077/Ticket_Help"
         />
         <ProjetoItem
           title="Plataforma de Cursos"
