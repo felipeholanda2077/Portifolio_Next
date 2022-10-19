@@ -12,7 +12,9 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=green&style=for-the-badge"/>
 </p>
 
-<h1 align="center">Links 👨🏻‍💻</h1>
+<br>
+
+<h3 align="center">Links 👨🏻‍💻</h1>
 
 <p align="center">Link do WebSite: https://portifolio-next-atualizado.vercel.app/</p>
 
