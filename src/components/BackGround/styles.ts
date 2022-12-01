@@ -64,13 +64,8 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 1000px) {
-    .wave {
-      opacity: 0;
-    }
-  }
   
-  @media (max-width: 100px) {
+  @media (max-width: 400px) {
     .wave {
       width: 1000px;
       height: 900px;
