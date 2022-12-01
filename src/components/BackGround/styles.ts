@@ -60,7 +60,7 @@ export const Container = styled.div`
     }
     .wave.-three {
       opacity: 0;
-      background: red;
+      background: gray;
     }
   }
 
