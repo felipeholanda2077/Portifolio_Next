@@ -49,7 +49,7 @@ export const Container = styled.div`
     position: fixed;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
     .wave {
       width: 1500px;
       height: 1300px;
