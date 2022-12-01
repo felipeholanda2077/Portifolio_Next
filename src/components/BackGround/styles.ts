@@ -70,13 +70,15 @@ export const Container = styled.div`
     }
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 100px) {
     .wave {
-      width: 1500px;
-      height: 1300px;
+      width: 1000px;
+      height: 900px;
       opacity: 0;
     }
     .wave.-two {
+      width: 700px;
+      height: 900px;
       opacity: 0;
     }
     .wave.-three {
