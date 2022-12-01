@@ -69,6 +69,21 @@ export const Container = styled.div`
       opacity: 0;
     }
   }
+  
+  @media (max-width: 600px) {
+    .wave {
+      width: 1500px;
+      height: 1300px;
+      opacity: 0;
+    }
+    .wave.-two {
+      opacity: 0;
+    }
+    .wave.-three {
+      opacity: 0;
+      background: red;
+    }
+  }
 
   .box:after {
     content: '';
