@@ -69,15 +69,13 @@ export const Container = styled.div`
     .wave {
       width: 1000px;
       height: 900px;
-      opacity: 0;
+      opacity: 0.5;
     }
     .wave.-two {
-      width: 700px;
-      height: 900px;
-      opacity: 0;
+      opacity: 0.4;
     }
     .wave.-three {
-      opacity: 0;
+      opacity: 0.2;
       background: red;
     }
   }
