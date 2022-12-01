@@ -65,7 +65,7 @@ export const Container = styled.div`
   }
 
   
-  @media (min-width: 600px) {
+  @media (max-width: 600px) {
     .wave {
       width: 1000px;
       height: 900px;
