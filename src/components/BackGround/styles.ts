@@ -67,18 +67,18 @@ export const Container = styled.div`
   
   @media (max-width: 600px) {
     .wave {
-      width: 500px;
-      height: 500px;
+      width: 450px;
+      height: 450px;
       opacity: 0.5;
     }
     .wave.-two {
-    width: 400px;
-      height: 400px;
+    width: 350px;
+      height: 350px;
       opacity: 0.4;
     }
     .wave.-three {
-    width: 300px;
-      height: 300px;
+    width: 250px;
+      height: 250px;
       opacity: 0.2;
     }
   }
