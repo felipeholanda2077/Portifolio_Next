@@ -27,10 +27,10 @@ export function HomeHero() {
             <span className="purple">Atuação</span> {'\u007B'}
             <div>
               Área de Trabalho:{' '}
-              <span className="blue">Programador Front-End,</span>
+              <span className="blue">Dev Front-End,</span>
             </div>
             <div>
-              Cargo: <span className="blue">Desenvolvedor Junior</span>
+              Cargo: <span className="blue">Programador Junior</span>
             </div>
             {'\u007D'}
           </CodeItem>
