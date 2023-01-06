@@ -15,7 +15,7 @@ function Experiencias() {
         />
         <ExeperienciaItem
           year="2022"
-          title="Progamador Shopify"
+          title="Programador Shopify"
           description="Criação de e-commerce de modo freelancer para clientes através da plataforma Shopify."
         />
         <ExeperienciaItem
