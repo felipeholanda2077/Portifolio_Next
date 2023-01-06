@@ -27,7 +27,7 @@ export function HomeHero() {
             <span className="purple">Atuação</span> {'\u007B'}
             <div>
               Área de Trabalho:{' '}
-              <span className="blue">Progamador Full-Stack,</span>
+              <span className="blue">Programador Front-End,</span>
             </div>
             <div>
               Cargo: <span className="blue">Desenvolvedor Junior</span>
