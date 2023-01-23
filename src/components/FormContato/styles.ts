@@ -1,9 +1,6 @@
 import { darken } from 'polished';
 import styled from 'styled-components';
 
-
-
-
 export const Container = styled.section`
   width: 100%;
 `;
@@ -82,8 +79,7 @@ export const TextArea = styled.textarea`
   }
 `;
 
-
-.button{
+export const Button = styled.button`
   height: 34px;
   border-radius: 4px;
   border: 0;
@@ -91,9 +87,8 @@ export const TextArea = styled.textarea`
   background-color: #0fdbff;
   font-size: 18px;
   transition: background-color, transform 0.8s;
-}
 
-.button:hover{
   background-color: #0fe3ff;
   transform: scale(1.01);
-}
+
+`;
