@@ -8,7 +8,7 @@ export default function Form() {
 
   return (
     <FormContainer>
-      <form action="mailto:teste@mail.com" method="get" id="contatoForm" target="_blank">
+      <form className="form" onSubmit={() => {}}>
         <Input
           placeholder="Nome"
           value={nome}
