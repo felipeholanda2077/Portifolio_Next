@@ -1,6 +1,9 @@
 import { darken } from 'polished';
 import styled from 'styled-components';
 
+
+
+
 export const Container = styled.section`
   width: 100%;
 `;
@@ -78,3 +81,19 @@ export const TextArea = styled.textarea`
     color: ${({ theme }) => theme.primary};
   }
 `;
+
+
+.button{
+  height: 34px;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  background-color: #0fdbff;
+  font-size: 18px;
+  transition: background-color, transform 0.8s;
+}
+
+.button:hover{
+  background-color: #0fe3ff;
+  transform: scale(1.01);
+}
