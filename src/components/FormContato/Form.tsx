@@ -33,8 +33,9 @@ export default function Form() {
           value={mensagem}
           onChange={(e) => setMensagem(e.target.value)}
         />
-      <input className="button" type="submit" value="Enviar" />
         </form>
+      <input className="button" type="submit" value="Enviar" />
+        
     </FormContainer>
   );
 }
