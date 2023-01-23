@@ -90,5 +90,5 @@ export const Button = styled.button`
 
   background-color: ${({ theme }) => theme.primary};
   transform: scale(1.01);
-
+};
 `;

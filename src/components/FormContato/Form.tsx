@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 import { useState } from 'react';
 import { FormContainer, Input, TextArea, Button } from './styles';
 
@@ -5,16 +6,16 @@ export default function Form() {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
   const [mensagem, setMensagem] = useState('');
-  
-  function sendEmail(e){
+
+  function sendEmail(e) {
     e.preventDefault();
-    
-    if(nome === '' || email === '' || mensagem === ''){
-      alert("Preencha todos os campos");
+
+    if (nome === '' || email === '' || mensagem === '') {
+      alert('Preencha todos os campos');
       return;
     }
-    
-    alert("TESTE")
+
+    alert('TESTE');
   }
 
   return (
@@ -23,7 +24,7 @@ export default function Form() {
         <Input
           placeholder="Nome"
           value={nome}
-          onChange={(e) => setNome(e.target.value)}
+          onChange={e => setNome(e.target.value)}
           required
         />
         <Input
@@ -31,18 +32,18 @@ export default function Form() {
           type="email"
           required
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          onChange={e => setEmail(e.target.value)}
         />
         <TextArea
           placeholder="Mensagem"
           required
           value={mensagem}
-          onChange={(e) => setMensagem(e.target.value)}
+          onChange={e => setMensagem(e.target.value)}
         />
-        <Button className="button" type="submit" value="Enviar">Enviar</Button>
-        </form>
-      
-        
+        <Button className="button" type="submit" value="Enviar">
+          Enviar
+        </Button>
+      </form>
     </FormContainer>
   );
 }
