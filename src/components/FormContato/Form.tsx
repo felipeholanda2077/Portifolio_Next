@@ -8,6 +8,12 @@ export default function Form() {
   
   function sendEmail(e){
     e.preventDefault();
+    
+    if(nome === '' || email === '' || mensagem === ''){
+      alert("Preencha todos os campos");
+      return;
+    }
+    
     alert("TESTE")
   }
 
