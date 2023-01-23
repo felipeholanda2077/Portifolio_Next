@@ -5,10 +5,15 @@ export default function Form() {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
   const [mensagem, setMensagem] = useState('');
+  
+  function sendEmail(e){
+    e.preventDefault();
+    alert("TESTE")
+  }
 
   return (
     <FormContainer>
-      <form className="form" onSubmit={() => {}}>
+      <form className="form" onSubmit={sendEmail}>
         <Input
           placeholder="Nome"
           value={nome}
