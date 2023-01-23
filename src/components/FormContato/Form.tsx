@@ -17,7 +17,7 @@ export default function Form() {
         <Input
           placeholder="Nome"
           value={nome}
-          onChange={({ target }) => setNome(target.value)}
+          onChange={(e) => setNome(e.target.value)}
           required
         />
         <Input
@@ -25,13 +25,13 @@ export default function Form() {
           type="email"
           required
           value={email}
-          onChange={({ target }) => setEmail(target.value)}
+          onChange={(e) => setEmail(e.target.value)}
         />
         <TextArea
           placeholder="Mensagem"
           required
           value={mensagem}
-          onChange={({ target }) => setMensagem(target.value)}
+          onChange={(e) => setMensagem(e.target.value)}
         />
       </form>
       <button type="button" id="enviar">ENVIAR</button>
