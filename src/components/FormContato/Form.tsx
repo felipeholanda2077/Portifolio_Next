@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FormContainer, Input, TextArea } from './styles';
+import { FormContainer, Input, TextArea, Button } from './styles';
 
 export default function Form() {
   const [nome, setNome] = useState('');
