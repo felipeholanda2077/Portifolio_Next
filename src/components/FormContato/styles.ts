@@ -84,11 +84,11 @@ export const Button = styled.button`
   border-radius: 4px;
   border: 0;
   cursor: pointer;
-  background-color: #0fdbff;
+  background-color: #fffff;
   font-size: 18px;
   transition: background-color, transform 0.8s;
 
-  background-color: #0fe3ff;
+  background-color: ${({ theme }) => theme.primary};
   transform: scale(1.01);
 
 `;
