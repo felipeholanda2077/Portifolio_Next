@@ -6,7 +6,7 @@ import { Container } from './styles';
 function Projetos() {
   return (
     <Container>
-      <SectionTitle title="Principais POCs(Provas de conceito)" />
+      <SectionTitle title="Principais POCs" />
 
       <section>
         <ProjetoItem
