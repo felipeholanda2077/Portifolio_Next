@@ -1,7 +1,7 @@
 import {
-  AiOutlineTwitter,
   AiOutlineGithub,
-  AiFillLinkedin
+  AiFillLinkedin,
+  AiOutlineWhatsApp
 } from 'react-icons/ai';
 import { Container } from './styles';
 
@@ -24,8 +24,12 @@ function Footer() {
           Voltar ao topo
         </button>
         <section>
-          <AiOutlineTwitter
-            onClick={() => handleRedirect('https://twitter.com')}
+          <AiOutlineWhatsApp
+            onClick={() =>
+              handleRedirect(
+                'http://api.whatsapp.com/send?1=pt_BR&phone=5511953528042'
+              )
+            }
           />
           <AiOutlineGithub
             onClick={() =>
@@ -34,9 +38,7 @@ function Footer() {
           />
           <AiFillLinkedin
             onClick={() =>
-              handleRedirect(
-                'https://www.linkedin.com/in/felipe-holanda-de-freitas-3a91281a2/'
-              )
+              handleRedirect('https://www.linkedin.com/in/felipe-holandadev/')
             }
           />
         </section>
