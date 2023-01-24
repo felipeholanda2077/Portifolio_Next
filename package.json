@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.10.0",
+    "@emailjs/browser": "^3.7.0",
     "next": "10.2.0",
     "next-images": "^1.7.0",
     "polished": "^4.2.2",
@@ -41,5 +41,13 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+    
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   }
+  
 }

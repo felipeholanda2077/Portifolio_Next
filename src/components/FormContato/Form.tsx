@@ -1,6 +1,11 @@
+/* eslint-disable no-console */
+/* eslint-disable import/order */
+/* eslint-disable object-shorthand */
+/* eslint-disable prettier/prettier */
 /* eslint-disable no-alert */
 import { useState } from 'react';
 import { FormContainer, Input, TextArea, Button } from './styles';
+import emailjs from '@emailjs/browser'
 
 export default function Form() {
   const [nome, setNome] = useState('');
@@ -15,7 +20,22 @@ export default function Form() {
       return;
     }
 
-    alert('TESTE');
+    const templateParams = {
+      from_name: nome,
+      message: mensagem,
+      email: email
+    }
+
+    emailjs.send("service_tmns12f", "template_8qxeqhz", templateParams, "w0cxDDOuwsHQmyk41")
+    .then((response) => {
+        console.log('EMAIL ENVIADO', response.status, response.text);
+        setNome('')
+        setEmail('')
+        setMensagem('')
+    },
+    (err) => {
+        console.log('ERRO: ', err);
+    })
   }
 
   return (
