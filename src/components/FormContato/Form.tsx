@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable no-console */
 /* eslint-disable import/order */
 /* eslint-disable object-shorthand */
@@ -6,6 +7,7 @@
 import { useState } from 'react';
 import { FormContainer, Input, TextArea, Button } from './styles';
 import emailjs from '@emailjs/browser'
+import Swal from 'sweetalert2'
 
 export default function Form() {
   const [nome, setNome] = useState('');
@@ -32,9 +34,23 @@ export default function Form() {
         setNome('')
         setEmail('')
         setMensagem('')
+
+        Swal.fire(
+          'Mensagem Enviada com Sucesso!',
+          'Felipe Holanda, visualizará sua mensagem o mais rápido possivel!',
+          'success'
+        )
     },
     (err) => {
         console.log('ERRO: ', err);
+
+        Swal.fire({
+          icon: 'error',
+          title: 'Erro ao enviar mensagem!',
+          text: 'Tente novamente mais tarde!',
+          footer: '<a href="">Por que eu tenho esse problema?</a>'
+        }
+        )
     })
   }
 
