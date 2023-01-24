@@ -8,7 +8,6 @@ import Footer from '../components/Footer';
 import FormContato from '../components/FormContato';
 import BackGround from '../components/BackGround';
 
-
 export default function Home() {
   return (
     <HomeContainer>
