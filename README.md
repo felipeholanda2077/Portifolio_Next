@@ -22,7 +22,7 @@
 
 <h1 align="center">Sobre o Projeto</h1>
 
-<h4 align="center">Site dado meu portifolio atualizado 2022-2023 para fins cormeciais e lucratiovs profissionais</h4>
+<h4 align="center">Site dado meu portifolio atualizado 2022-2023 para fins cormeciais e lucrativos profissionais</h4>
 
 <br>
 
