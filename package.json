@@ -1,7 +1,17 @@
 {
   "name": "Portifolio_Next",
   "version": "1.0",
+  "author": "Keet Sugathadasa",
+  "email": "email",
+  "license": "MIT",
+  "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "next": "10.2.0",
@@ -36,15 +46,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "main": "index.js",
-  "repository": "https://github.com/felipeholanda2077/Portifolio_Next.git",
-  "author": "felipeholanda2077 <felipe_holandafreitas@hotmail.com>",
-  "license": "MIT"
+  }
 }
