@@ -50,7 +50,7 @@ export default class MyDocument extends Document {
             sizes="32x32"
             href="/favicon_io/favicon.png"
           />
-          <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+          <link rel="manifest" href="/favicon_io/site.webmanifest" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
