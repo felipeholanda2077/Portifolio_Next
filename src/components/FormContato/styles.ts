@@ -80,11 +80,12 @@ export const TextArea = styled.textarea`
 `;
 
 export const Button = styled.button`
-  height: 34px;
-  border-radius: 4px;
+  height: 40px;
+  width: 50%;
+  border-radius: 10px;
   border: 0;
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: ${({ theme }) => theme.inputBackground};
   font-size: 18px;
   transition: background-color, transform 0.8s;
 
