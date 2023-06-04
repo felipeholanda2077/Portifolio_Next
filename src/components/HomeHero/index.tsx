@@ -9,7 +9,7 @@ export function HomeHero() {
       <div>
         <TextContainer>
           <h1>Olá</h1>
-          <h2>Me chamo Felipe Holanda</h2>
+          <h2>Me chamo Felipe Holanda 👋🏻</h2>
         </TextContainer>
         <InfosContainer>
           <CodeItem>
