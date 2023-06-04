@@ -1,5 +1,10 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
+import {
+  AiOutlineGithub,
+  AiFillLinkedin,
+  AiOutlineWhatsApp
+} from 'react-icons/ai';
 import picture from '../../assets/Logo.png';
 
 export function HomeHero() {
