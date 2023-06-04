@@ -30,7 +30,7 @@ export function HomeHero() {
               <span className="blue">Dev Front-End,</span>
             </div>
             <div>
-              Cargo: <span className="blue">Programador Jr</span>
+              Tempo de experiência: <span className="blue">3 Anos</span>
             </div>
             {'\u007D'}
           </CodeItem>
