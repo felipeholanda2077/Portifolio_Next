@@ -21,9 +21,7 @@ export function HomeHero() {
             <div>
               Sobrenome: <span className="blue">Holanda</span>
             </div>
-            <div>
-              Empresa atual: <span className="blue">Inovarti - Soluções Avançadas</span>
-            </div>
+            
             {'\u007D'}
           </CodeItem>
           <CodeItem>
