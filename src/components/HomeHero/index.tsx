@@ -13,6 +13,17 @@ export function HomeHero() {
         </TextContainer>
         <InfosContainer>
           <CodeItem>
+            <span className="purple">Atuação</span> {'\u007B'}
+            <div>
+              Área de Trabalho:{' '}
+              <span className="blue">Dev Front-End,</span>
+            </div>
+            <div>
+              Tempo de experiência: <span className="blue">3 Anos</span>
+            </div>
+            {'\u007D'}
+          </CodeItem>
+          <CodeItem>
             <span className="comment">//Minha apresentação</span>
             <span className="purple">Infos</span> {'\u007B'}
             <div>
@@ -22,17 +33,6 @@ export function HomeHero() {
               Sobrenome: <span className="blue">Holanda</span>
             </div>
             
-            {'\u007D'}
-          </CodeItem>
-          <CodeItem>
-            <span className="purple">Atuação</span> {'\u007B'}
-            <div>
-              Área de Trabalho:{' '}
-              <span className="blue">Dev Front-End,</span>
-            </div>
-            <div>
-              Tempo de experiência: <span className="blue">3 Anos</span>
-            </div>
             {'\u007D'}
           </CodeItem>
         </InfosContainer>
