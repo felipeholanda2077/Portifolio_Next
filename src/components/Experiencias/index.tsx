@@ -21,7 +21,7 @@ function Experiencias() {
         <ExeperienciaItem
           year="2023"
           title="Programador Jr - Front-End"
-          description="Criação de soluções para usuarios dentro de uma plataforma de criação de e-commerces avançados Inovarti."
+          description="Criação de soluções para usuários visuais para criação de e-commerces avançados na empresa Inovarti."
         />
       </section>
     </Container>
