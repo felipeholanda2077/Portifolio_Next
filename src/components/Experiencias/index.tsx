@@ -19,9 +19,9 @@ function Experiencias() {
           description="Criação de e-commerce de modo freelancer para clientes através da plataforma Shopify."
         />
         <ExeperienciaItem
-          year="2022"
-          title="Freelancer Front-End"
-          description="Criação de Tutoriais para usuarios dentro de uma plataforma de criação de e-commerces avançados."
+          year="2023"
+          title="Programador Jr - Front-End"
+          description="Criação de soluções para usuarios dentro de uma plataforma de criação de e-commerces avançados Inovarti."
         />
       </section>
     </Container>
