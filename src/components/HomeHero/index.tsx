@@ -1,10 +1,5 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
-import {
-  AiOutlineGithub,
-  AiFillLinkedin,
-  AiOutlineWhatsApp
-} from 'react-icons/ai';
 import picture from '../../assets/Logo.png';
 
 export function HomeHero() {
@@ -17,32 +12,7 @@ export function HomeHero() {
           <h2>Me chamo Felipe Holanda 👋🏻</h2>
         </TextContainer>
         
-       <Container>
-      <div className="container">
-        <button type="button" onClick={handleScrollTop}>
-          Voltar ao topo
-        </button>
-        <section>
-          <AiOutlineWhatsApp
-            onClick={() =>
-              handleRedirect(
-                'http://api.whatsapp.com/send?1=pt_BR&phone=5511953528042'
-              )
-            }
-          />
-          <AiOutlineGithub
-            onClick={() =>
-              handleRedirect('https://github.com/felipeholanda2077')
-            }
-          />
-          <AiFillLinkedin
-            onClick={() =>
-              handleRedirect('https://www.linkedin.com/in/felipe-holandadev/')
-            }
-          />
-        </section>
-      </div>
-    </Container>
+       
         
         <InfosContainer>
           <CodeItem>
