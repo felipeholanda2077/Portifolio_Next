@@ -16,25 +16,7 @@ export function HomeHero() {
           <h1>Olá</h1>
           <h2>Me chamo Felipe Holanda 👋🏻</h2>
         </TextContainer>
-        <section>
-          <AiOutlineWhatsApp
-            onClick={() =>
-              handleRedirect(
-                'http://api.whatsapp.com/send?1=pt_BR&phone=5511953528042'
-              )
-            }
-          />
-          <AiOutlineGithub
-            onClick={() =>
-              handleRedirect('https://github.com/felipeholanda2077')
-            }
-          />
-          <AiFillLinkedin
-            onClick={() =>
-              handleRedirect('https://www.linkedin.com/in/felipe-holandadev/')
-            }
-          />
-        </section>
+       
         <InfosContainer>
           <CodeItem>
             <span className="purple">Atuação</span> {'\u007B'}
